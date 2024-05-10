@@ -1,0 +1,210 @@
+/* heading font family.  */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+
+
+/* paragraph , button font family  */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.main {
+    /* border: 5px solid brown; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* first container styling start from here !  */
+
+.main .first {
+    height: 498px;
+    width: 306px;
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.i-c h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.first img {
+    margin-bottom: 30px;
+}
+
+.first h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.first p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.inner1 {
+    margin-top: 50px;
+}
+
+.inner1 a {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.inner1 a:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.first:hover{
+    transform: scale(1.1);
+    transition: transform 500ms;
+    box-shadow: 0px 0px 20px 20px rgb(0 0 0 / 19%);
+}
+
+
+
+/* Second Container Styling start here !  */
+
+.main .sec {
+    height: 498px;
+    width: 306px;
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.i-c h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.sec img {
+    margin-bottom: 30px;
+}
+
+.sec h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.sec p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.inner2 {
+    margin-top: 50px;
+}
+
+.inner2 a {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.inner2 a:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.sec:hover{
+    transform: scale(1.1);
+    transition: transform 500ms;
+    box-shadow: 0px 0px 20px 20px rgb(0 0 0 / 19%);
+}
+
+
+/* Third Container Styling start here !  */
+
+.main .third {
+    height: 498px;
+    width: 306px;
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.i-c h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.third img {
+    margin-bottom: 30px;
+}
+
+.third h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.third p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.inner3 {
+    margin-top: 50px;
+}
+
+.inner3 a {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.inner3 a:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.third:hover{
+    transform: scale(1.1);
+    transition: transform 500ms;
+    box-shadow: 0px 0px 20px 20px rgb(0 0 0 / 19%);
+}
